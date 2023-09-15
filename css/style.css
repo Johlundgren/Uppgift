@@ -316,6 +316,9 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   padding-right: 140px;
   padding-left: 140px;
 }
+.features .container .flex-section .section-title .center-content .btn-yellow {
+  width: 460px;
+}
 .features .container .flex-section .section-title a {
   text-align: center;
 }
