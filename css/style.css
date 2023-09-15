@@ -282,6 +282,76 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   }
 }
 
+.logotypes .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 1200px) {
+  .logotypes .container {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 35px;
+  }
+}
+.logotypes .container .box {
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+}
+.features .container .flex-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.features .container .flex-section .section-title {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+.features .container .flex-section .section-title a {
+  text-align: center;
+}
+.features .grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "feature1 feature2" "feature3 feature4";
+  max-width: 600px;
+  margin: 0 auto;
+}
+.features .grid-section h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.features .grid-section i {
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.features .grid-section .feature {
+  max-width: 100%;
+}
+.features .grid-section .feature .feature:nth-child(1) {
+  grid-area: feature1;
+}
+.features .grid-section .feature .feature:nth-child(2) {
+  grid-area: feature2;
+}
+.features .grid-section .feature .feature:nth-child(3) {
+  grid-area: feature3;
+}
+.features .grid-section .feature .feature:nth-child(4) {
+  grid-area: feature4;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }

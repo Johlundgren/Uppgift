@@ -306,6 +306,95 @@ header {
     }
 }
 
+.logotypes { 
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        @media (min-width: 1200px) {
+            display: flex;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            gap: 35px;
+        }
+        .box {
+            margin-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.features {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        outline: 1px solid rgba(0, 0, 0, 0.2);
+
+        .flex-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+
+            .section-title {
+                padding-right: 140px;
+                padding-left: 140px;
+
+                h2 {
+                    
+                    
+                }
+                p {
+
+                }
+                a {
+                    text-align: center;  
+                }
+            }
+        }       
+    }        
+            .grid-section {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas:
+                "feature1 feature2"
+                "feature3 feature4";
+                max-width: 600px;
+                margin: 0 auto;
+           
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                }
+                i {
+                    font-size: 40px;
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+                .feature {
+                    max-width: 100%;
+                    .feature:nth-child(1) {
+                        grid-area: feature1;
+                        }
+                        .feature:nth-child(2) {
+                        grid-area: feature2;
+                        }
+                        .feature:nth-child(3) {
+                        grid-area: feature3;
+                        }
+                        .feature:nth-child(4) {
+                        grid-area: feature4;
+                        }
+                }
+
+    }
+}
+
 .project-and-case {
    
     .container {
