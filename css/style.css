@@ -423,6 +423,10 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   margin-bottom: 90px;
 }
 
+.meet-section .container .meet-headshots {
+  display: flex;
+  gap: 30px;
+}
 .service-section {
   background-color: beige;
 }

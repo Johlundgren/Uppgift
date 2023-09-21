@@ -474,6 +474,25 @@ header {
     }
 }
 
+.meet-section {
+    .container {
+        .meet-rubrik {
+            .section-title {
+                a {
+
+                }
+            }
+        }
+        .meet-headshots {
+            display: flex;
+            gap: 30px;
+            .headshots {
+                
+            }
+        }
+    }
+}
+
 .service-section {
     background-color: beige;
     .container {
