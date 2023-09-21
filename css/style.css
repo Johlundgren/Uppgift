@@ -312,6 +312,7 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   justify-content: space-between;
   align-items: center;
   outline: 1px solid rgba(0, 0, 0, 0.2);
+  height: 600px;
 }
 .features .container .flex-section {
   flex: 1;
@@ -339,6 +340,9 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   justify-content: center;
   align-items: center;
 }
+.features .grid-section p {
+  padding-bottom: 40px;
+}
 .features .grid-section h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -346,9 +350,9 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
 }
 .features .grid-section i {
   font-size: 40px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 70px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
 }
 .features .grid-section .feature {
   max-width: 100%;
@@ -419,26 +423,50 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   margin-bottom: 90px;
 }
 
+.service-section {
+  background-color: beige;
+}
 .service-section .container {
   align-items: center;
   justify-content: center;
-  background-color: beige;
   padding-bottom: 40px;
+}
+.service-section .container .service-rubrik .section-title h2 {
+  word-wrap: break-word;
 }
 .service-section .container .service-headlines {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
 }
 .service-section .container .service-headlines .service {
-  border: 1px solid #191919;
+  height: 400px;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 100px;
+  padding: 70px;
 }
-.service-section .container .service-headlines .service .btn {
-  margin-top: auto;
+.service-section .container .service-headlines .service::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  bottom: 50px;
+  width: 40px;
+  height: 2px;
+  background-color: #191919;
+}
+.service-section .container .service-headlines .service .btn-black {
+  padding: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+.service-section .container .service-headlines .service .btn-black i {
+  font-size: 30px;
 }
 .service-section .container .service-headlines .service h3 {
   font-family: "DM Sans", sans-serif;
@@ -449,12 +477,49 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
 .service-section .container .service-headlines .service p {
   font-size: 16px;
 }
+.service-section .container .service-headlines .service:nth-child(1) {
+  background-color: #ffffff;
+}
+.service-section .container .service-headlines .service:nth-child(2) {
+  background-color: #F9D783;
+}
+.service-section .container .service-headlines .service:nth-child(3) {
+  background-color: #ffffff;
+}
+.service-section .container .service-headlines .service:nth-child(4) {
+  background-color: #ffffff;
+}
 .service-section .container .service-headlines .service .service-yellow {
-  background-color: yellow;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent {
+  background-color: white;
+  padding: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent i {
+  font-size: 30px;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover i {
+  color: white;
+  background-color: transparent;
+}
+.service-section .container .center-content .btn-transparent {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
 .newsletter {
