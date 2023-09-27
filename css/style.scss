@@ -478,15 +478,18 @@ header {
     background-color: #F9D783;
     .container {
         .meet-rubrik {
+            position: relative;
             display: flex;
             justify-content: space-between;
             align-items: center;
             .section-title {
                 a {
+                    position: absolute;
                     font-size: 16px;
                     font-family: 'Inter', sans-serif;
                     font-weight: 300;
-                    margin-left: 900px;
+                    top: 150px;
+                    right: 0;
                 }
             }
         }
@@ -503,6 +506,30 @@ header {
                 }
             }
             
+    }
+}
+
+.testimonial-section {
+    background-color: #F9D783;
+    height: 1100px;
+    .container {
+        background-color: white;
+        .testimonial-rubrik {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .client-reviews {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .center-content {
+            .btn-black {
+                margin: 120px;
+
+            }
+        }
     }
 }
 
