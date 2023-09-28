@@ -423,14 +423,28 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   font-family: "Inter", sans-serif;
   margin-left: 25px;
 }
-.main-container .secondcontainer .aboutcompany .company-info p {
-  margin-top: 20px;
+.main-container .secondcontainer .about-company .section-title {
+  content: "";
 }
-.main-container .secondcontainer .aboutcompany .btn-company .btn-black {
-  margin-top: 20px;
+.main-container .secondcontainer .about-company .company-info p {
+  margin-top: -60px;
 }
-.main-container .secondcontainer .aboutcompany .btn-company .btn-transparent {
-  margin-top: 20px;
+.main-container .secondcontainer .about-company .btn-company {
+  margin-top: 120px;
+  margin-bottom: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 450px;
+}
+.main-container .secondcontainer .about-company .btn-company .btn-transparent {
+  margin-left: 40px;
+  border-radius: 50%;
+  padding: 16px;
+}
+.main-container .secondcontainer .about-company .btn-company p {
+  margin-left: 20px;
+  margin-bottom: 2px;
 }
 
 .project-and-case .container .section-title {
