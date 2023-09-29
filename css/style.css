@@ -447,6 +447,162 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   margin-bottom: 2px;
 }
 
+.service-section {
+  background-color: beige;
+}
+.service-section .container {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.service-section .container .service-rubrik .section-title h2 {
+  word-wrap: break-word;
+}
+.service-section .container .service-headlines {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.service-section .container .service-headlines .service {
+  height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 70px;
+}
+.service-section .container .service-headlines .service::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  bottom: 50px;
+  width: 40px;
+  height: 2px;
+  background-color: #191919;
+}
+.service-section .container .service-headlines .service .btn-black {
+  padding: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+.service-section .container .service-headlines .service .btn-black i {
+  font-size: 30px;
+}
+.service-section .container .service-headlines .service h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.service-section .container .service-headlines .service p {
+  font-size: 16px;
+}
+.service-section .container .service-headlines .service:nth-child(1) {
+  background-color: #ffffff;
+}
+.service-section .container .service-headlines .service:nth-child(2) {
+  background-color: #F9D783;
+}
+.service-section .container .service-headlines .service:nth-child(3) {
+  background-color: #ffffff;
+}
+.service-section .container .service-headlines .service:nth-child(4) {
+  background-color: #ffffff;
+}
+.service-section .container .service-headlines .service .service-yellow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent {
+  background-color: white;
+  padding: 16px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent i {
+  font-size: 30px;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+}
+.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover i {
+  color: white;
+  background-color: transparent;
+}
+.service-section .container .center-content .btn-transparent {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.whychooseus {
+  display: flex;
+}
+.whychooseus .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.whychooseus .container .chooseus .section-title {
+  margin-bottom: -40px;
+}
+.whychooseus .container .chooseus .why-us-example {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.whychooseus .container .chooseus .why-us-example .icon-container i {
+  font-size: 30px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 14px;
+}
+.whychooseus .container .chooseus .why-us-example .text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+.whychooseus .container .chooseus .why-us-example .text-container h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.whychooseus .container .chooseus .why-us-example .text-container p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.whychooseus .container .whychooseus-2 {
+  flex: 1;
+}
+.whychooseus .container .whychooseus-2 .whychooseus-3 {
+  position: relative;
+}
+.whychooseus .container .whychooseus-2 .whychooseus-3 img {
+  margin-left: 280px;
+}
+.whychooseus .container .whychooseus-2 .whychooseus-3 .backgroundbox {
+  position: absolute;
+  background-color: #F0EFE9;
+  height: 425px;
+  width: 1050px;
+  left: 170px;
+  top: 160px;
+  z-index: -1;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
@@ -577,105 +733,6 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   margin-right: 10px;
   padding-top: 50px;
   padding-bottom: 70px;
-}
-
-.service-section {
-  background-color: beige;
-}
-.service-section .container {
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 40px;
-}
-.service-section .container .service-rubrik .section-title h2 {
-  word-wrap: break-word;
-}
-.service-section .container .service-headlines {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
-}
-.service-section .container .service-headlines .service {
-  height: 400px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 70px;
-}
-.service-section .container .service-headlines .service::before {
-  content: "";
-  position: absolute;
-  top: 50px;
-  left: 40px;
-  bottom: 50px;
-  width: 40px;
-  height: 2px;
-  background-color: #191919;
-}
-.service-section .container .service-headlines .service .btn-black {
-  padding: 16px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 50px;
-  right: 30px;
-}
-.service-section .container .service-headlines .service .btn-black i {
-  font-size: 30px;
-}
-.service-section .container .service-headlines .service h3 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  padding-bottom: 20px;
-}
-.service-section .container .service-headlines .service p {
-  font-size: 16px;
-}
-.service-section .container .service-headlines .service:nth-child(1) {
-  background-color: #ffffff;
-}
-.service-section .container .service-headlines .service:nth-child(2) {
-  background-color: #F9D783;
-}
-.service-section .container .service-headlines .service:nth-child(3) {
-  background-color: #ffffff;
-}
-.service-section .container .service-headlines .service:nth-child(4) {
-  background-color: #ffffff;
-}
-.service-section .container .service-headlines .service .service-yellow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.service-section .container .service-headlines .service .service-yellow .btn-transparent {
-  background-color: white;
-  padding: 16px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 40px;
-  right: 30px;
-}
-.service-section .container .service-headlines .service .service-yellow .btn-transparent i {
-  font-size: 30px;
-}
-.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover {
-  background-color: #191919;
-  border: 1px solid #191919;
-}
-.service-section .container .service-headlines .service .service-yellow .btn-transparent:hover i {
-  color: white;
-  background-color: transparent;
-}
-.service-section .container .center-content .btn-transparent {
-  margin-top: 50px;
-  margin-bottom: 120px;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-weight: 300;
 }
 
 .newsletter {
