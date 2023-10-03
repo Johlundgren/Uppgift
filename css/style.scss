@@ -292,10 +292,11 @@ header {
                     padding-right: 0px;
                  }
             }
+            
             a {
+                margin-top: 20px;
                 margin-right: 0px;
                 display: block;
-                margin-bottom: 10px;
 
                 @media (min-width: 768px) {
                     display: inline-block;

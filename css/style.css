@@ -270,9 +270,9 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   }
 }
 .showcase .container .content h1 a {
+  margin-top: 20px;
   margin-right: 0px;
   display: block;
-  margin-bottom: 10px;
 }
 @media (min-width: 768px) {
   .showcase .container .content h1 a {
