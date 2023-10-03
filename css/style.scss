@@ -784,6 +784,15 @@ header {
                     margin-right: 10px;
                     padding-top: 50px;
                     padding-bottom: 70px;
+                    
+                    a {
+                        text-decoration: none;
+                        color: black;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
                 }
             }
             
@@ -851,6 +860,15 @@ header {
                 margin-right: 10px;
                 padding-top: 50px;
                 padding-bottom: 70px;
+                
+                a {
+                    text-decoration: none;
+                    color: black;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
             }
         }
     }

@@ -682,6 +682,13 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   padding-top: 50px;
   padding-bottom: 70px;
 }
+.meet-section .container .center-content .smallcircles a {
+  text-decoration: none;
+  color: black;
+}
+.meet-section .container .center-content .smallcircles a:hover {
+  color: white;
+}
 
 .testimonial-section {
   background-color: #F9D783;
@@ -733,6 +740,13 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   margin-right: 10px;
   padding-top: 50px;
   padding-bottom: 70px;
+}
+.articlenews-section .container .center-content .smallcircles a {
+  text-decoration: none;
+  color: black;
+}
+.articlenews-section .container .center-content .smallcircles a:hover {
+  color: white;
 }
 
 .newsletter {
