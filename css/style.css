@@ -597,8 +597,8 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   position: absolute;
   background-color: #F0EFE9;
   height: 425px;
-  width: 1050px;
-  left: 170px;
+  width: 1040px;
+  left: 160px;
   top: 160px;
   z-index: -1;
 }
@@ -765,4 +765,88 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
   outline: none;
   border: 1px solid rgba(25, 25, 25, 0.1);
   margin-right: 20px;
+}
+
+.crito-section {
+  z-index: 0;
+  position: relative;
+  background-color: #0E1021;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.crito-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+.crito-section .container .crito-logo-section {
+  grid-column: 1/2;
+}
+.crito-section .container .crito-logo-section p {
+  color: white;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+.crito-section .container .crito-logo-section img {
+  margin-top: 100px;
+}
+.crito-section .container .crito-rubrik {
+  margin-left: 60px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.crito-section .container .crito-rubrik h3 {
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.crito-section .container .crito-rubrik a {
+  padding-top: 10px;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+.crito-section .container .crito-rubrik a:hover {
+  color: gray;
+}
+.crito-section .container .background-images-right {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding: 20px;
+  background-color: #0E1021;
+}
+footer .footer-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-section .container p {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin-bottom: 2px;
+}
+footer .footer-section .container .socialmedia-bar a {
+  color: white;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+footer .footer-section .container .socialmedia-bar a:hover {
+  color: #808080;
 }
