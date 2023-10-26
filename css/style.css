@@ -866,3 +866,36 @@ footer .footer-section .container .socialmedia-bar a {
 footer .footer-section .container .socialmedia-bar a:hover {
   color: #808080;
 }
+
+.background-box {
+  background-color: #F0EFE9;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.background-box .background-lines-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.background-box .container .menu {
+  text-align: center;
+}
+.background-box .container .menu a {
+  text-decoration: none;
+  color: #333;
+  margin: 4px;
+  transition: color 0.3s;
+}
+.background-box .container .menu a:hover {
+  color: #a288c1;
+}
+.background-box .container h4 {
+  text-align: center;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-size: 56px;
+}
