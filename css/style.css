@@ -899,3 +899,58 @@ footer .footer-section .container .socialmedia-bar a:hover {
   font-family: "DM Sans", sans-serif;
   font-size: 56px;
 }
+
+.company-information {
+  height: 400px;
+}
+.company-information .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: relative;
+}
+.company-information .box {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 120px;
+  position: relative;
+  align-items: center;
+  height: 200px;
+  transition: transform 0.2s;
+}
+.company-information .box:hover {
+  transform: scale(1.05);
+}
+.company-information .box .boxtest {
+  margin-top: 40px;
+}
+.company-information .box .boxtest h3 {
+  font-size: 22px;
+  font-family: "dm sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.company-information .box .boxtest p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.company-information .box .circle-mark {
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+.company-information .box .circle-mark i {
+  font-size: 20px;
+}
