@@ -295,13 +295,17 @@ header {
             
             a {
                 margin-top: 20px;
-                margin-right: 0px;
+                margin-left: 0px;
                 display: block;
 
                 @media (min-width: 768px) {
                     display: inline-block;
+                    
                  }
             }
+        }
+        .btn-yellow {
+            margin-left: 100px;
         }
       }
       img {

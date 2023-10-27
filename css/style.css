@@ -271,13 +271,16 @@ header .container .menu nav a.active:after, header .container .menu nav a:hover:
 }
 .showcase .container .content h1 a {
   margin-top: 20px;
-  margin-right: 0px;
+  margin-left: 0px;
   display: block;
 }
 @media (min-width: 768px) {
   .showcase .container .content h1 a {
     display: inline-block;
   }
+}
+.showcase .container .content .btn-yellow {
+  margin-left: 100px;
 }
 .showcase .container img {
   display: none;
